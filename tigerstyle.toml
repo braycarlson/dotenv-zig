@@ -1,0 +1,5 @@
+select = ["ALL"]
+ignore = ["TS046"]
+
+[extend-per-file-ignores]
+"conformance/generate.py" = ["TS004", "TS016", "TS022"]
